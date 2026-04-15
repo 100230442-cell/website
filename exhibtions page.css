@@ -1,0 +1,57 @@
+.artists-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px; 
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+ .join-now-section {
+                text-align: center; 
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #eee; 
+            }
+.join-link {
+color: #007bff; 
+text-decoration: none;
+font-weight: bold;
+transition: color 0.2s;}
+
+.join-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+    }
